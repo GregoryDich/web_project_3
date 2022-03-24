@@ -1,0 +1,29 @@
+.place {
+    display: grid;
+    grid-template-areas: "title artist" "image text" "link text" ". text";
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 30px;
+    column-gap: 40px;
+}
+
+.place:last-of-type {
+    margin-bottom: 92px;
+}
+
+@media screen and (max-width: 768px) {
+    .place {
+        margin-bottom: 72px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .place {
+        grid-template-areas: "title" "artist" "image" "text" "text" " text" "link";
+        grid-template-columns: 1fr;
+        max-width: calc(320px - 16 * 2);
+        margin-bottom: 0;
+    }
+    .place:last-of-type {
+        margin-bottom: 64px;
+    }
+}

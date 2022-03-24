@@ -1,0 +1,9 @@
+.footer__copyright {
+    margin: 92px auto 24px auto;
+}
+
+@media screen and (max-width: 768px) {
+    .footer__copyright {
+        margin-top: 88px;
+    }
+}

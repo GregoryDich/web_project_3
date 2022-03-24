@@ -1,0 +1,11 @@
+.place__artist-container {
+    display: flex;
+    flex-direction: column;
+    grid-area: artist;
+}
+
+@media screen and (max-width: 320px) {
+    .place__artist-container {
+        margin-left: 16px;
+    }
+}
