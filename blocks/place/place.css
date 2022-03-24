@@ -20,7 +20,7 @@
   .place {
     grid-template-areas: "title" "artist" "image" "text" "text" " text" "link";
     grid-template-columns: 1fr;
-    max-width: calc(320px - 32);
+    max-width: 288px;
     margin-bottom: 0;
   }
   .place:last-of-type {
