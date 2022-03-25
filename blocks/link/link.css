@@ -1,26 +1,27 @@
 .link {
-    color: #fff;
-    background-color: #0278FE;
-    border-radius: 4px;
-    padding: 13px 20px;
-    width: 248px;
-    height: 48px;
-    box-sizing: border-box;
-    text-decoration: none;
-    text-align: center;
-    margin: 40px 0 50px 0;
-    font-size: 18px;
-    line-height: 22px;
-    grid-area: link;
+  color: #fff;
+  background-color: #0278fe;
+  border-radius: 4px;
+  padding: 13px 20px;
+  width: 248px;
+  height: 48px;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-align: center;
+  margin: 40px 0 0 0;
+  font-size: 18px;
+  line-height: 22px;
+  grid-area: link;
+  font-weight: 600;
 }
 
 .link:hover {
-    background: #0063D2;
+  background: #0063d2;
 }
 
 @media screen and (max-width: 320px) {
-    .link {
-        width: 288px;
-        margin: 30px auto 50px auto;
-    }
+  .link {
+    width: 288px;
+    margin: 30px auto 50px auto;
+  }
 }

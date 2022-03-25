@@ -1,15 +1,13 @@
 .cover__link {
-    box-sizing: border-box;
-    margin-top: 0;
-    width: 137px;
-    height: 48px;
-    display: inline-block;
+  box-sizing: border-box;
+  margin-top: 0;
+  display: inline-block;
 }
 
 @media screen and (max-width: 320px) {
-    .cover__link {
-        width: 137px;
-        height: 48px;
-        margin-bottom: 0;
-    }
+  .cover__link {
+    margin-bottom: 0;
+    width: 137px;
+    height: 48px;
+  }
 }

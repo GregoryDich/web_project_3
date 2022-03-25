@@ -1,18 +1,19 @@
 .place__image {
-    max-width: 460px;
-    grid-area: image;
-    width: 100%;
+  max-width: 460px;
+  grid-area: image;
+  width: 100%;
+  margin-top: 48px;
 }
 
 @media screen and (max-width: 768px) {
-    .place__image {
-        max-width: 340px;
-    }
+  .place__image {
+    max-width: 340px;
+  }
 }
 
 @media screen and (max-width: 320px) {
-    .place__image {
-        max-width: 320px;
-        margin: 30px 0;
-    }
+  .place__image {
+    min-width: 320px;
+    margin: 30px 0;
+  }
 }
