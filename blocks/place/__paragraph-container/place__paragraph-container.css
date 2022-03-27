@@ -6,7 +6,7 @@
 
 @media screen and (max-width: 768px) {
   .place__paragraph-container {
-    max-width: 340px;
+    margin-top: 46px;
   }
 }
 @media screen and (max-width: 320px) {

@@ -18,7 +18,11 @@
 .link:hover {
   background: #0063d2;
 }
-
+@media screen and (max-width: 550px) {
+  .link {
+    margin-bottom: 50px;
+  }
+}
 @media screen and (max-width: 320px) {
   .link {
     width: 288px;
